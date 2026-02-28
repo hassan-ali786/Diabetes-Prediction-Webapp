@@ -110,7 +110,7 @@ Healthcare-Disease-Prediction/
 └── README.md
 ⚙️ Installation Guide
 Step 1: Clone repository
-git clone https://github.com/yourusername/Healthcare-Disease-Prediction.git
+git clone https://github.com/hassan-ali786/Healthcare-Disease-Prediction.git
 cd Healthcare-Disease-Prediction
 Step 2: Install dependencies
 pip install -r requirements.txt
