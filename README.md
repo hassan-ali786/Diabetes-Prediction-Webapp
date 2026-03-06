@@ -164,6 +164,10 @@ Open a browser at `http://127.0.0.1:5000`, enter patient details, and click Pred
 Hassan Ali  
 Aspiring Data Scientist and Machine Learning Engineer
 
+## Application Screenshot
+
+![Healthcare Web App](https://github.com/hassan-ali786/Diabetes-Prediction-Webapp/blob/main/screenshots/FXlrnnVT6F.png)
+
 
 
 
