@@ -166,7 +166,7 @@ Aspiring Data Scientist and Machine Learning Engineer
 
 ## Application Screenshot
 
-![Healthcare Web App](https://github.com/hassan-ali786/Diabetes-Prediction-Webapp/blob/main/screenshots/FXlrnnVT6F.png)
+![Healthcare Web App](https://github.com/hassan-ali786/Diabetes-Prediction-Webapp/blob/main/screenshots/project3.png)
 
 
 
