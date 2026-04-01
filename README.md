@@ -69,7 +69,7 @@ It follows a complete ML lifecycle:
 ---
 
 ## Project Structure
-Healthcare-Disease-Prediction/
+Diabetes-Disease-Prediction/
 ├── model/
 │ ├── diabetes_model.pkl
 │ ├── scaler.pkl
