@@ -83,7 +83,7 @@ Diabetes-Disease-Prediction/
 │   ├── index.html
 │   └── result.html
 ├── screenshots/
-│   └── home_page.png
+│   └── homepage.png
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
