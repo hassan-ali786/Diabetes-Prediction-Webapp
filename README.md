@@ -182,7 +182,7 @@ Data Scientist and Machine Learning Engineer
 
 ## Application Screenshot
 
-![Home Page](https://raw.githubusercontent.com/hassan-ali786/Diabetes-Prediction-Webapp/main/screenshots/home_page.png)
+![Home Page](https://raw.githubusercontent.com/hassan-ali786/Diabetes-Prediction-Webapp/main/screenshots/homepage.png)
 
 ---
 
