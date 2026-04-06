@@ -82,6 +82,8 @@ Diabetes-Disease-Prediction/
 ├── templates/
 │   ├── index.html
 │   └── result.html
+├── screenshots/
+│   └── home_page.png
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
@@ -172,7 +174,7 @@ http://127.0.0.1:5000
 
 ## Application Screenshot
 
-![Healthcare Web App](https://github.com/hassan-ali786/Diabetes-Prediction-Webapp/blob/main/screenshots/home_page.png)
+![Home Page](screenshots/home_page.png)
 
 ---
 
