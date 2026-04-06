@@ -180,7 +180,7 @@ Data Scientist and Machine Learning Engineer
 
 ## Application Screenshot
 
-![Healthcare Web App](https://github.com/hassan-ali786/Diabetes-Prediction-Webapp/blob/main/screenshots/home_page.png)
+https://raw.githubusercontent.com/hassan-ali786/Diabetes-Prediction-Webapp/main/screenshots/home_page.png
 
 ---
 
