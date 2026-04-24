@@ -1,6 +1,6 @@
 # Healthcare Disease Prediction Web Application
 
-An end-to-end Machine Learning web application that predicts the likelihood of diabetes using clinical health parameters. The system leverages supervised learning techniques and provides real-time predictions through a professional web interface.
+An end-to-end Machine Learning web application that predicts the likelihood of diabetes using clinical health parameters. The system leverages supervised learning techniques and provides real-time predictions through a Flask-based web interface.
 
 ---
 
@@ -9,7 +9,7 @@ An end-to-end Machine Learning web application that predicts the likelihood of d
 This application analyzes patient health metrics and predicts diabetes risk while following a complete machine learning lifecycle:
 
 - Data preprocessing and feature scaling  
-- Model training using Random Forest Classifier  
+- Model training using XGBoost Classifier  
 - Model evaluation using Precision, Recall, F1-score, and Accuracy  
 - Deployment using Flask  
 - Professional frontend integration for real-time predictions  
@@ -18,14 +18,14 @@ This application analyzes patient health metrics and predicts diabetes risk whil
 
 ## Machine Learning Model
 
-**Algorithm:** Random Forest Classifier  
+**Algorithm:** XGBoost Classifier  
 
-### Why Random Forest
+### Why XGBoost
 
-- High performance on tabular healthcare datasets  
-- Resistant to overfitting  
+- High performance on structured datasets  
+- Handles complex feature relationships  
 - Strong generalization capability  
-- Stable performance on small datasets  
+- Better accuracy compared to traditional models  
 
 ---
 
@@ -54,17 +54,17 @@ Outcome (0 = No Diabetes, 1 = Diabetes)
 
 | Metric     | Value |
 |------------|-------|
-| Accuracy   | 73%   |
-| Precision  | 0.71  |
-| Recall     | 0.68  |
-| F1-Score   | 0.69  |
+| Accuracy   | 75%   |
+| Precision  | 0.74  |
+| Recall     | 0.72  |
+| F1-Score   | 0.73  |
 
 ### Metric Explanation
 
 - **Accuracy:** Overall correct predictions  
 - **Precision:** Correctly predicted positive cases  
-- **Recall:** Proportion of actual positive cases correctly identified  
-- **F1-Score:** Balance between Precision and Recall, critical in healthcare systems  
+- **Recall:** Ability to detect actual positive cases  
+- **F1-Score:** Balance between Precision and Recall  
 
 ---
 
@@ -76,14 +76,17 @@ Diabetes-Disease-Prediction/
 ├── model/
 │   ├── diabetes_model.pkl
 │   ├── scaler.pkl
-│   └── metrics.pkl
+│
 ├── static/
 │   └── style.css
+│
 ├── templates/
 │   ├── index.html
 │   └── result.html
+│
 ├── screenshots/
 │   └── homepage.png
+│
 ├── train_model.py
 ├── app.py
 ├── requirements.txt
@@ -130,8 +133,8 @@ http://127.0.0.1:5000
 ## Key Features
 
 - Real-time diabetes prediction  
-- Professional and user-friendly healthcare interface  
-- Machine Learning integration using Random Forest  
+- Professional healthcare interface  
+- Machine Learning integration using XGBoost  
 - Evaluation using Accuracy, Precision, Recall, and F1-score  
 - Modular and production-ready architecture  
 
@@ -141,12 +144,10 @@ http://127.0.0.1:5000
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ---
 
@@ -161,29 +162,24 @@ http://127.0.0.1:5000
 
 ## Future Improvements
 
-- Integration with XGBoost and LightGBM for improved accuracy  
-- Prediction probability visualization  
-- Feature importance visualization  
+- Integration with LightGBM for comparison  
+- Explainable AI (SHAP values)  
 - User authentication system  
 - Cloud deployment (AWS, Render, Docker)  
 - REST API development  
 - Database integration for patient records  
-- Multi-disease prediction system using deep learning  
+- Multi-disease prediction system  
 
 ---
 
 ## Author
 
 Hassan Ali  
-Data Scientist and Machine Learning Engineer  
-
+Machine Learning and Data Science Engineer  
+GitHub: https://github.com/hassan-ali786  
 
 ---
 
 ## Application Screenshot
 
-![Home Page](https://raw.githubusercontent.com/hassan-ali786/Diabetes-Prediction-Webapp/main/screenshots/homepage.png)
-
----
-
-
+![Home Page](screenshots/homepage.png)
