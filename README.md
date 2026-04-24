@@ -70,12 +70,17 @@ Outcome (0 = No Diabetes, 1 = Diabetes)
 
 ## Project Structure
 
-```
 Diabetes-Disease-Prediction/
 │
-├── model/
+├── app/
+│   └── app.py
+│
+├── models/
 │   ├── diabetes_model.pkl
 │   ├── scaler.pkl
+│
+├── dataset/
+│   └── pima_diabetes.csv
 │
 ├── static/
 │   └── style.css
@@ -88,10 +93,9 @@ Diabetes-Disease-Prediction/
 │   └── homepage.png
 │
 ├── train_model.py
-├── app.py
 ├── requirements.txt
+├── .gitignore
 └── README.md
-```
 
 ---
 
